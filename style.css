@@ -1,3 +1,22 @@
+@media only screen and (max-width: 1015px) {
+  .container {
+    flex-direction: column;
+  }
+
+  .projects-skills {
+    text-align: center;
+  }
+}
+
+@media only screen and (max-width: 780px) {
+  body {
+    width: 730px;
+  }
+  .footer {
+    padding-bottom: 40px;
+  }
+}
+
 * {
   color: #fff;
   font-family: "Utendo", sans-serif;
@@ -10,7 +29,7 @@ body {
 
 .main-container {
   display: block;
-  position: fixed;
+  position: relative;
   margin: 20px;
   padding-left: 50px;
   top: 0;
@@ -56,6 +75,7 @@ body {
   line-height: 24px;
   font-size: 18px;
   text-align: center;
+  margin-right: 50px;
 }
 
 .hyperweb {
@@ -76,11 +96,6 @@ body {
 .hyperweb:hover {
   opacity: 60%;
   transition: 0.5s;
-}
-
-.projects-skills {
-  padding-left: 50px;
-  /* font-size: 30px; */
 }
 
 .header {
@@ -120,10 +135,7 @@ body {
 }
 
 .footer {
-  display: flex;
-  position: fixed;
-  right: 70px;
-  bottom: 80px;
+  text-align: center;
   color: #adadad;
 }
 
