@@ -1,4 +1,4 @@
-@media only screen and (max-width: 1015px) {
+@media only screen and (min-width: 781px) and (max-width: 1015px) {
   .container {
     flex-direction: column;
   }
@@ -6,12 +6,29 @@
   .projects-skills {
     text-align: center;
   }
+
+  .projects {
+    padding-top: 50px;
+  }
 }
 
 @media only screen and (max-width: 780px) {
   body {
     width: 730px;
   }
+
+  .container {
+    flex-direction: column;
+  }
+
+  .projects-skills {
+    text-align: center;
+  }
+
+  .projects {
+    padding-top: 50px;
+  }
+
   .footer {
     padding-bottom: 40px;
   }
