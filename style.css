@@ -44,7 +44,7 @@
 }
 
 * {
-  color: #fff;
+  color: #d1d1d1;
   font-family: "Utendo", sans-serif;
   font-weight: 200;
 }
@@ -96,21 +96,52 @@ body {
 }
 
 .description {
+  display: block;
   width: 100%;
   max-width: 800px;
   line-height: 24px;
   font-size: 18px;
   text-align: center;
   margin-right: 50px;
+  animation: fadeIn 0.5s;
 }
 
-.hyperweb {
+.description-1,
+.description-2,
+.description-3,
+.description-4 {
+  display: none;
+  width: 100%;
+  max-width: 800px;
+  line-height: 24px;
+  font-size: 18px;
+  text-align: center;
+  margin-right: 50px;
+  animation: fadeIn 0.5s;
+}
+
+.project-1,
+.project-2,
+.project-3,
+.project-4 {
+  cursor: pointer;
+}
+
+.hyperweb,
+.bankly,
+.bankist,
+.weatherly,
+.numguess {
   border-radius: 10px;
   opacity: 100%;
   filter: grayscale(1);
 }
 
-.hyperweb:hover {
+.hyperweb:hover,
+.bankly:hover,
+.bankist:hover,
+.weatherly:hover,
+.numguess:hover {
   opacity: 60%;
   transition: 0.5s;
 }
