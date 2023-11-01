@@ -217,6 +217,7 @@ a:hover {
 
 a h4 {
   text-decoration: underline;
+  font-size: 24px;
 }
 
 a h4:hover {
