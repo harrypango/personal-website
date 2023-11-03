@@ -125,13 +125,15 @@ body {
 .project-3,
 .project-4 {
   cursor: pointer;
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
 }
 
 .hyperweb,
 .bankly,
 .bankist,
 .weatherly,
-.numguess {
+.calculator {
   border: 1px solid #d1d1d1;
   padding: 3px;
   /* border-radius: 10px; */
@@ -143,7 +145,7 @@ body {
 .bankly:hover,
 .bankist:hover,
 .weatherly:hover,
-.numguess:hover {
+.calculator:hover {
   opacity: 60%;
   transition: 0.5s;
 }
